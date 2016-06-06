@@ -1,19 +1,19 @@
 System.config({
-  "defaultJSExtensions": true,
-  "transpiler": false,
-  "paths": {
+  defaultJSExtensions: true,
+  transpiler: false,
+  paths: {
     "*": "dist/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
-  "meta": {
+  meta: {
     "bootstrap": {
       "deps": [
         "jquery"
       ]
     }
   },
-  "map": {
+  map: {
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.2.1",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1.2.1",
     "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-beta.1.2.5",
@@ -160,4 +160,4 @@ System.config({
       "css": "github:systemjs/plugin-css@0.1.21"
     }
   }
-})
+});
